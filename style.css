@@ -134,9 +134,12 @@ footer {
   display: flex;
 }
 
+.row input {
+    width: 100%;
+}
 .row .button {
   flex-grow: 1;
   border: 1px solid #646cff;
   transition: 0.2s;
-    width: 50%;
+  width: 50%;
 }

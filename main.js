@@ -3,6 +3,7 @@ import { setupIdGenerator } from "./id-generator.js";
 
 document.querySelector("#app").innerHTML = `
   <div id="id-generator">
+  <h1>Generate a random valid Israeli Id</h1>
     <div class="row">
         <input class="mb-8" type="text" id="id-input" />
     </div>
