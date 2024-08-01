@@ -8,8 +8,8 @@ document.querySelector("#app").innerHTML = `
         <input class="mb-8" type="text" id="id-input" />
     </div>
     <div class="row"> 
-        <button class="button" id="copy-button">Copy</button>
-        <button class="button" id="generate-button">Generate</button>
+        <button class="button" id="copy-button">Copy to clipboard</button>
+        <button class="button" id="generate-button">Generate another one</button>
     </div>
   </div>
 `;
