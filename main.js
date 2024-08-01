@@ -1,11 +1,16 @@
-import './style.css'
-import { setupIdGenerator } from './id-generator.js'
+import "./style.css";
+import { setupIdGenerator } from "./id-generator.js";
 
-document.querySelector('#app').innerHTML = `
+document.querySelector("#app").innerHTML = `
   <div id="id-generator">
-    <input type="text" id="id-input" />
-    <button id="id-button">Generate</button>
+    <div class="row">
+        <input class="mb-8" type="text" id="id-input" />
+    </div>
+    <div class="row"> 
+        <button class="button" id="copy-button">Copy</button>
+        <button class="button" id="generate-button">Generate</button>
+    </div>
   </div>
-`
+`;
 
-setupIdGenerator(document.querySelector('#id-generator'))
+setupIdGenerator(document.querySelector("#id-generator"));
